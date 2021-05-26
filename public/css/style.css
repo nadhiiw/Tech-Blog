@@ -115,17 +115,17 @@ input {
   color: var(--primary);
 }
 
-.hero {
+.header {
   padding: 3% 4%;
   background-color: var(--dark);
   color: var(--primary);
 }
 
-.hero p {
+.header p {
   max-width: 75%;
 }
 
-.app-title {
+.title {
   font-size: 3rem;
   background-color: var(--primary);
   color: var(--dark);
@@ -135,7 +135,7 @@ input {
   box-shadow: 6px 5px var(--light-dark);
 }
 
-.app-title a {
+.title a {
   color: var(--dark);
 }
 
