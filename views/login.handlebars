@@ -1,20 +1,13 @@
-<div class="card">
-    <div class="card-header">
-      <h2>Login</h2>
-    </div>
-    <form id="login-form" class="card-body">
-        <div>
-          <label for="username-input-login">Username</label>
-          <input type="text" id="username-input-login"/></div>
-        </div>
-
-        <div>
-          <label for="password-input-login" class="form-label">Password</label>
-          <input type="password" id="password-input-login"/>
-        </div>
+<div class="d-flex justify-content-center" id="main-holder">
+    <form id="login-form">
+          <h2>Login</h2>
+          <br>
+          <input type="text"  id="username-input-login" class="login-form-field" placeholder="Username"/>
+          <input type="password" id="password-input-login" class="login-form-field" placeholder="Password"/>
         <button type="submit" id="login-btn" class="btn">Login</button>
+        <br>
         <a type="button" href="/signup">Sing up instead</a>
     </form>
 </div>
 
-<script scr="/js/login.js"></script>
+<script scr="/js/login.js">
