@@ -52,5 +52,7 @@ WHEN I am idle on the page for more than a set time
 THEN I am automatically signed out of the site 
 ```
 Image of the  Tech Blog page:
-![ TechBlog Image 1](controllers/assets/techblog.png)
+
+
+![ TechBlog Image 1](Assets/techblog.png)
 
